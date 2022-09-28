@@ -6,10 +6,10 @@ import datetime
 import sys
 import getpass
 
-# Edit baseUri value to reflect company bitbucket rest api URI
+# Edit baseUri variable to your company bitbucket rest api URI
 # Example:
-#   https://bitbucket.'companyX'.com/rest/api/1.0/
-#   https://api.github.com/orgs/'companyX'/repos
+#   baseUri = 'https://bitbucket.'companyX'.com/rest/api/1.0/'
+
 baseUri = ''
 
 def access_api(url, user, passwd):
